@@ -1,0 +1,36 @@
+PS C:\Users\nrknb\desktop> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\nrknb\desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/06/10      0:08                git_challenge
+
+
+PS C:\Users\nrknb\desktop> cd git_challenge
+PS C:\Users\nrknb\desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/nrknb/Desktop/git_challenge/.git/
+PS C:\Users\nrknb\desktop\git_challenge> git add .    
+PS C:\Users\nrknb\desktop\git_challenge> git commit -m "git_challengeを作成"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\nrknb\desktop\git_challenge> git add hello_world.txt
+PS C:\Users\nrknb\desktop\git_challenge> git commit -m "hello_worldを追加"
+[main (root-commit) e17c0aa] hello_world繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\nrknb\desktop\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\nrknb\desktop\git_challenge> git add hello_world.txt
+PS C:\Users\nrknb\desktop\git_challenge> git commit -m "日本語訳を追記"
+[main 6c003ae] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\nrknb\desktop\git_challenge> git log --oneline
+6c003ae (HEAD -> main) 日本語訳を追記
+e17c0aa hello_worldを追加
